@@ -1,0 +1,271 @@
+@media only screen and (max-width:1085px) {
+    ul a li {
+        font-weight: 300;
+        display: inline-block;
+        margin-left: 2px;
+        width: 200px;
+        height: 4.5em;
+        padding-top: 3%;
+    }
+    .main-image {
+        width: 30%;
+        height: 30%;
+    }
+    .synopsis {
+        font-size: 100%;
+        margin-top: 23%;
+    }
+}
+
+@media only screen and(min-height:1100px) and (min-width:2339px) {
+    .main-image {
+        margin-top: 0%;
+        border: 2px solid green;
+    }
+    .synopsis {
+        margin-top: 3%;
+    }
+}
+
+/**
+Ipad pro portrait mode
+*/
+
+@media only screen and (max-width:1024px) and (max-height:1366) {
+    ul a li {
+        font-weight: 300;
+        display: inline-block;
+        margin-left: 2px;
+        width: 200px;
+        height: 4.5em;
+        padding-top: 3%;
+    }
+    .logo {
+        padding-top: 0.8%;
+    }
+    .down-arrow {
+        display: none;
+    }
+    .down-arrow-ipad {
+        display: block;
+        margin-top: 20%;
+        margin-left: 45%;
+    }
+}
+
+@media only screen and (orientation:portrait) {
+    .logo {
+        margin-left: 1%;
+        display: inline;
+    }
+    .menu-icon {
+        float: right;
+        display: flow-root;
+    }
+
+    input{
+        width:auto;
+    }
+
+    .arrow-container{
+        margin-left:46%;
+        transform:scale(0.5);
+    }
+}
+
+@media only screen and (max-width:1024px) and (max-height:768) {
+    ul a li {
+        font-weight: 300;
+        display: inline-block;
+        margin-left: 2px;
+        width: 200px;
+        height: 4.5em;
+        padding-top: 3%;
+    }
+    .main-image {
+        width: 30%;
+    }
+    .logo {
+        padding-top: 1%;
+    }
+    .down-arrow {
+        display: none;
+    }
+    .down-arrow-ipad {
+        display: block;
+        margin-top: 20%;
+        margin-left: 45%;
+    }
+}
+
+@media only screen and (max-width: 884px) {
+    ul a li {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 823px) and (max-height:411px) {
+    ul a li {
+        width: 150px;
+    }
+    .main-image {
+        width: 25%;
+        height: auto;
+    }
+    .synopsis {
+        width: 55%;
+        height: auto;
+        font-size: 50%;
+        padding-top: 15%;
+        margin-right: 19%;
+    }
+}
+
+@media only screen and (max-width: 812px) and (max-height:375px) {
+    ul a li {
+        padding-top: 4%;
+    }
+    header .logo {
+        padding-top: 1%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    html, body {
+        font-size: 20px;
+    }
+    .main-image {
+        display: inline;
+    }
+    .logo {
+        margin-left: 1%;
+        display: inline;
+    }
+    ion-icon {
+        color: rgb(255, 255, 255);
+        font-size: 64px;
+    }
+    .menu-icon {
+        float: right;
+        display: flow-root;
+    }
+
+    .arrow-container{
+        margin-left: 46%;
+    }
+}
+
+@media only screen and (max-width:736px) and (max-height:414px) {
+    .synopsis {
+        font-size: 100%;
+        margin-top: 0%;
+    }
+    .main-image {
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width:668px) and (max-height:376px) {
+    .image-synopsis-container {
+        display: flex;
+    }
+    .main-image {
+        width: 30%;
+    }
+    .synopsis {
+        margin-right: 0%;
+        width: 70%;
+        font-size: 80%;
+        margin-top: 7%;
+    }
+}
+
+@media only screen and (max-width:568px) and (max-height:320px) {
+    
+    .synopsis {
+        margin-top: 13%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    html, body {
+        font-size: 20px;
+    }
+    .main-image {
+        margin-left: 0%;
+        width: 50%;
+    }
+    .logo {
+        margin-left: 1%;
+        display: inline;
+    }
+    .image-synopsis-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .name:click {
+        color: rgb(245, 238, 174);
+        font-weight: 400;
+        -webkit-animation: shake 0.2s;
+        animation: shake 0.2s;
+    }
+    .synopsis {
+        text-align: center;
+        word-break: keep-all;
+        color: rgb(255, 255, 255);
+        margin-right: 0%;
+        margin-top: 0%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    body {
+        font-size: 20px;
+    }
+    .synopsis {
+        margin-top: 1%;
+        font-size: 80%;
+    }
+    .main-image {
+        margin-top: 0%;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 411px) {
+    
+    .synopsis {
+        margin-top: 0%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    body {
+        font-size: 20px;
+    }
+    .synopsis {
+        margin-top: 7%;
+    }
+    .main-image {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .synopsis {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    body {
+        font-size: 15px;
+    }
+    .synopsis {
+        margin-top: 7%;
+    }
+    .main-image {
+        width: 70%;
+    }
+}
